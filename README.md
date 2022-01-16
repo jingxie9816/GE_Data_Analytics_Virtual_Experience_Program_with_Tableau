@@ -28,7 +28,7 @@ Create data visualization charts in Tableau to
 - ensure quality control in our manufacturing process and to determine if the parts we manufacture are made accurately
 
 The interactive [dashboard](https://public.tableau.com/app/profile/jing.xie1865/viz/Task2_visualization/Dashboard1?publish=yes) I created in Tableau includes:
-- Airplane Parts Measurement Tracking (whether measurement of the design attribute is whintin acceptable tolerance from the expected nominal value)
+- Component Parts Measurement Tracking (whether measurement of the design attribute is whintin acceptable tolerance from the expected nominal value)
 - Frequency of airports that GE engines fly into and outof (both bar chart and symbol map)
 - Count of flight cycle, avg RUL(Remaining Useful Life) and avg accept_rate(% of parts acceptable) by 4 airline operators
 
