@@ -25,12 +25,17 @@ I tried two methods in this step: Excel(vlookup and index+match) & Tableau (unio
 ### 2. Data Visualization
 Create data visualization charts in Tableau to 
 - make decisions based off real time data
-- ensue quality control in our manufacturing process and to determine if the parts we manufacture are made accurately
+- ensure quality control in our manufacturing process and to determine if the parts we manufacture are made accurately
 
 The interactive [dashboard](https://public.tableau.com/app/profile/jing.xie1865/viz/Task2_visualization/Dashboard1?publish=yes) I created in Tableau includes:
 - Airplane Parts Measurement Tracking (whether measurement of the design attribute is whintin acceptable tolerance from the expected nominal value)
 - Frequency of airports that GE engines fly into and outof (both bar chart and symbol map)
 - Count of flight cycle, avg RUL(Remaining Useful Life) and avg accept_rate(% of parts acceptable) by 4 airline operators
 
-
 You can refer to the Tableau interactive dashboard I created [here](https://public.tableau.com/app/profile/jing.xie1865/viz/Task2_visualization/Dashboard1?publish=yes). Hope it helps!
+
+My findings can be summarized here:
+1. The overall accept_rate for each component part is 0.8, while when inspecting the specific part with unique Serial number, 4% of them have accept_rate lower than 0.5. Closer monitor and more efforts may have to be placed on these outliers to ensure the safety of airplane operation.
+2. Airport WMKK(Malaysia) is the most common airports that GE engines fly into and outof. Furthermore, Southeast Asia is the most common area where GE engines operates, so more resources can be put into this area such as arranging more flight cycles, designing and manufacturing more customized characteristics etc..
+3. AXM is the airline operator having most flight cycles, almost twice as many as others, also echoing the second point since AXM is the main operator in Southeash Asia. Considering the large amounts of flight, we could monitor the performance of this operator more carefully, including tracking its capacity and quality closely.
+
