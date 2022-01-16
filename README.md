@@ -16,9 +16,9 @@ In order to assist the GE Aviation team to make decisions based off real time da
 Create a single data set that combines all the data listed below into a single table:
 
 - Flight data (so data relating to the health of the mechanical engine of a plane)
-- Location Data for airports, Manufacturing Data (which relate to various airplane parts)
+- Location Data for airports
+- Manufacturing Data (which relate to various airplane parts)
 - Bill of material (which tells you what engines have been used)
-- Manufacturing details
 
 I tried two methods in this step: Excel(vlookup and index+match) & Tableau (union & join)
 
