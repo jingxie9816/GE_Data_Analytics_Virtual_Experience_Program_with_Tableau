@@ -20,4 +20,17 @@ Create a single data set that combines all the data listed below into a single t
 - Bill of material (which tells you what engines have been used)
 - Manufacturing details
 
+I tried two methods in this step: Excel(vlookup and index+match) & Tableau (union & join)
+
 ### 2. Data Visualization
+Create data visualization charts in Tableau to 
+- make decisions based off real time data
+- ensue quality control in our manufacturing process and to determine if the parts we manufacture are made accurately
+
+The interactive [dashboard](https://public.tableau.com/app/profile/jing.xie1865/viz/Task2_visualization/Dashboard1?publish=yes) I created in Tableau includes:
+- Airplane Parts Measurement Tracking (whether measurement of the design attribute is whintin acceptable tolerance from the expected nominal value)
+- Frequency of airports that GE engines fly into and outof (both bar chart and symbol map)
+- Count of flight cycle, avg RUL(Remaining Useful Life) and avg accept_rate(% of parts acceptable) by 4 airline operators
+
+
+You can refer to the Tableau interactive dashboard I created [here](https://public.tableau.com/app/profile/jing.xie1865/viz/Task2_visualization/Dashboard1?publish=yes). Hope it helps!
