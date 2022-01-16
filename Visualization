@@ -1,2 +1,15 @@
 <script src="https://public.tableau.com/app/profile/jing.xie1865/viz/Task2_visualization/Dashboard1?publish=yes"></script>
 <div id="tableauViz"></div>
+
+
+function initializeViz() {
+var placeholderDiv = document.getElementById("tableauViz");
+var url = "http://public.tableau.com/views/WorldIndicators/GDPpercapita";
+var options = {
+ width: '600px',
+ height: '600px',
+ hideTabs: true,
+ hideToolbar: true,
+ };
+viz = new tableau.Viz(placeholderDiv, url, options);
+}
